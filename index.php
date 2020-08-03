@@ -15,7 +15,8 @@
   
         <!-- Page content -->
         <div class="main">
-            <img src="Doge/Doge.png" style="width:50%;height:50%;">
+            <img src="/Doge/Doge_<?php $random = rand(1,3); echo $random; ?>.png" alt="King_Doge.jpg"/>
+            <!--<img src="Doge/Doge.png" style="width:50%;height:50%;">-->
         </div>
     </body>
 </html>
