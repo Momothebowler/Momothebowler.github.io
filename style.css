@@ -1,16 +1,3 @@
-.bg {
-  /* The image used */
-  background-image: ("Doge/Doge.png");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 /* The sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -49,3 +36,11 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+/*#doge_pic
+{
+  background-image: url("Doge/Doge_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}*/
+
