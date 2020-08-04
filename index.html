@@ -4,25 +4,8 @@
         <link rel="icon" type="image/png" href="Doge/King_Doge.jpg"/>
         <link rel="stylesheet" type="text/css" href="style.css">
         <script>
-            const fs = require("fs")
-
-            const getAllDirFiles = function(dirPath, arrayOfFiles) {
-                files = fs.readdirSync(dirPath)
-
-                arrayOfFiles = arrayOfFiles || []
-
-                files.forEach(function(file) {
-                    if (fs.statSync(dirPath + "/" + file).isDirectory()) {
-                        arrayOfFiles = getAllFiles(dirPath + "/" + file, arrayOfFiles)
-                    } else {
-                        arrayOfFiles.push(file)
-                    }
-                })
-            }
-
-            return arrayOfFiles
             function myFunction() {
-                const y = Math.floor(Math.random() * (getAllDirFiles("Doge").length)) + 1;
+                const y = Math.floor(Math.random() * 6)+1;
                 const pic = "Doge/Doge_" + y +".png";
                 var x = document.createElement("IMG");
                 x.setAttribute("src", pic);
@@ -36,7 +19,7 @@
     <body>
         <!-- Side navigation -->
         <div class="sidenav">
-            <a href="index.html">Home</a>
+            <a href="/">Home</a>
             <a href="about.html">About</a>
             <a href="#">Services</a>
             <a href="#">Clients</a>
