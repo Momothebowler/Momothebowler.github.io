@@ -6,12 +6,12 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script>
         function myFunction() {
-            const y = Math.floor(Math.random() * 11) + 1;
+            const y = Math.floor(Math.random() * 10) + 1;
             const pic = "Doge/Doge_" + y + ".png";
             var x = document.createElement("IMG");
             x.setAttribute("src", pic);
-            x.setAttribute("width", "100vw");
-            x.setAttribute("height", "100vh");
+            x.setAttribute("width", "auto");
+            x.setAttribute("height", "600px");
             x.setAttribute("alt", "aghhhhhhhhhhhhhhhh");
             document.getElementById("doge_pic").appendChild(x);
         }
@@ -21,9 +21,9 @@
 <body>
     <!-- Side navigation -->
     <div class="sidenav">
-        <a href="index">Home</a>
-        <a href="about">About</a>
-        <a href="#">Services</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
         <a href="#">Clients</a>
         <a href="#">Contact</a>
     </div>
