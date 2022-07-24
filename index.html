@@ -6,12 +6,12 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script>
         function myFunction() {
-            const y = Math.floor(Math.random() * 6) + 1;
+            const y = Math.floor(Math.random() * 11) + 1;
             const pic = "Doge/Doge_" + y + ".png";
             var x = document.createElement("IMG");
             x.setAttribute("src", pic);
-            x.setAttribute("width", "auto");
-            x.setAttribute("height", "600px");
+            x.setAttribute("width", "100vw");
+            x.setAttribute("height", "100vh");
             x.setAttribute("alt", "aghhhhhhhhhhhhhhhh");
             document.getElementById("doge_pic").appendChild(x);
         }
